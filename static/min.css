@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+.player {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.title {
+    display: block;
+    margin: 0;
+}
