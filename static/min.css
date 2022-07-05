@@ -2,7 +2,7 @@ h1 {
     text-align: center;
 }
 
-.player {
+.content {
     display: grid;
     align-items: center;
     justify-content: center;

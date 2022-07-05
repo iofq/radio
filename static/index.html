@@ -11,11 +11,17 @@
             <div class="player">
                 <div class="title">
                     <p id="track"></p>
+                    </br>
+                    <p id="count"></p>
                 </div>
-                <audio autoplay controls>
+                <audio id="audio" autoplay controls>
                     <source src="https://stream.10110110.xyz">
                 </audio>
             </div>
+        <button onclick="skipTrack()">Skip Track</button>
         </div>
-    <script src="index.js"></script>
+        <script src="index.js" defer>
+            currentTrack()
+                connListeners()
+        </script>
     </body>
