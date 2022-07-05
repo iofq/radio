@@ -1,5 +1,5 @@
 const title = document.getElementById("track")
-const track_endpoint = "http://localhost:8000/current"
+const track_endpoint = "http://radio.10110110.xyz/current"
 
 async function currentTrack() {
     const resp = await fetch(track_endpoint)
